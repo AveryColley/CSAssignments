@@ -1,5 +1,5 @@
 /*
-   Jacob Colley
+   Avery Colley
    This file inclues all of the functions for the Character class
 */
 
