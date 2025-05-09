@@ -1,6 +1,6 @@
 /*
 	AVLTree.h file for the AVLTree Class
-	Jacob Colley
+	Avery Colley
 */
 
 #include <iostream>
