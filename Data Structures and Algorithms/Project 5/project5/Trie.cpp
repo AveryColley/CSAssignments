@@ -1,6 +1,6 @@
 /*
    Trie.cpp file - implements an alphabet Trie that only accepts lowercase letters
-   Jacob Colley
+   Avery Colley
 */
 
 #include "Trie.h"
