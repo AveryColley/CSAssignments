@@ -1,6 +1,6 @@
 /*
    Database.h file for the Database class
-   Jacob Colley
+   Avery Colley
 */
 
 #include "Record.h"
