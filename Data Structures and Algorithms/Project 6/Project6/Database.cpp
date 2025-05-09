@@ -1,6 +1,6 @@
 /*
    Implements a Database using a HashTable and vector of Records
-   Jacob Colley
+   Avery Colley
 */
 
 #include "Database.h"
