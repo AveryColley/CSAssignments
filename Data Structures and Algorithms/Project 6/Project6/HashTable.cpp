@@ -1,6 +1,6 @@
 /*
    Implements a closed HashTable of size MAXHASH that using pseduo-random probing in the case of collisions
-   Jacob Colley
+   Avery Colley
 */
 
 #include "HashTable.h"
