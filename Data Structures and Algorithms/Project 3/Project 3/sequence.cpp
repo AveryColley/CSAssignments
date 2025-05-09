@@ -1,5 +1,5 @@
 /*
-    Jacob Colley
+    Avery Colley
     Project #3 - Linked Sequence Data Structure
 
     This file contains all of the functions for the Sequence class
