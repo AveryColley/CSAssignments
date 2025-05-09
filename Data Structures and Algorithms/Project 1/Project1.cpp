@@ -1,5 +1,5 @@
 /*
-   Jacob Colley
+   Avery Colley
    Project #1 - Simulating Dice Rolls
    This file allows the user to input an amount of dice rolls they want to simulate
    and then prints out the result of the rolls
