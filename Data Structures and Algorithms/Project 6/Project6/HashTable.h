@@ -1,6 +1,6 @@
 /*
    HashTable.h file for the HashTable class
-   Jacob Colley
+   Avery Colley
 */
 
 #include "slot.h"
