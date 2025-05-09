@@ -1,5 +1,5 @@
 /*
-   Jacob Colley
+   Avery Colley
    Project #2 - FIGHT!
    This program allows the user to input statistics for 2 characters in a very simplified RPG format
    and then simulates combat between the 2 characters until one of them wins.
