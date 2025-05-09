@@ -1,5 +1,5 @@
 /*
-   Jacob Colley
+   Avery Colley
    Project #5 - Building a word autocomplete application using an alphabet trie
 
    Main file for prompting user for a word prefix and then giving them the completions of that prefix
