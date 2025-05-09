@@ -1,5 +1,5 @@
 /*
-   Jacob Colley
+   Avery Colley
    Project #4 - Indexing with AVL Trees
 
    This file contains all the functions for the AVLTree Class
