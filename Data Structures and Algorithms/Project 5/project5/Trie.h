@@ -1,6 +1,6 @@
 /*
    Trie.h file for the Trie class
-   Jacob Colley
+   Avery Colley
 */
 
 #include <string>
