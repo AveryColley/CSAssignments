@@ -1,0 +1,12 @@
+.ORIG x3000
+
+AND R3, R3, #0
+LD R1, LOOP_END
+
+loop ADD R3, R3, #-2
+ADD R2, R1, R3 ; Checks to see if R0 > -LOOP_END
+BRp loop
+HALT
+
+LOOP_END .FILL #10
+.END

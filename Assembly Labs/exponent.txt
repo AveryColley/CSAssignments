@@ -1,0 +1,26 @@
+.ORIG x3000
+
+AND R3, R3, #0 ; Clears out R3
+ADD R3, R3, #1
+LD R1, Y
+BRz done ; If the exponent is 0, the answer is just 1
+
+expo AND R2, R2, #0 ; Clears out R2
+LD R0, X
+BRp multi ; If X != 0 we do repeated multiplication
+AND R3, R3, #0 ; For when X = 0
+BRz done
+
+multi ADD R2, R2, R3
+ADD R0, R0, #-1
+BRp multi ; Repeated addition
+ST R2, x0020
+LD R3, x001F ; Copies value from R2 into R3
+Add R1, R1, #-1
+BRp expo
+
+done HALT
+
+X .FILL x0004 ; Base
+Y .FILL x0003 ; Exponent
+.END
