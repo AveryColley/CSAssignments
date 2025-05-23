@@ -1,0 +1,146 @@
+/*
+  Name: Avery Colley
+  Date: January 19, 2022
+  Section: CSE 154 AC
+  This is the styles.css page that is used by the majority of the space.html file.
+  It features a starry background and some tan and brown colored boxes with text.
+*/
+body {
+  background-image: url("img/background.png");
+  background-attachment: fixed;
+  background-size: cover;
+  font-family: "Share Tech Mono", monospace;
+}
+
+header, #intro section, #jokes > section, #jokes div {
+  display: flex;
+}
+
+header, #jokes div {
+  flex-direction: column;
+}
+
+header, #intro section {
+  justify-content: center;
+}
+
+header, #jokes > section, #jokes div {
+  align-items: center;
+}
+
+header, #jokes h2, #jokes > p, #jokes div abbr {
+  color: #E0DBD7;
+}
+
+#facts, #intro, footer {
+  background-color: #E0DBD7;
+}
+
+#jokes div, footer p {
+  padding: 20px;
+}
+
+footer p, main > section h2, #jokes > p {
+  text-align: center;
+}
+
+header {
+  height: 100vh;
+}
+
+header > h1 {
+  text-transform: uppercase;
+  font-family: "Coda Caption", sans-serif;
+  font-size: 120px;
+  margin-bottom: 0px;
+  text-shadow: #551755 20px 15px 20px;
+}
+
+header > blockquote {
+  margin-top: 0px;
+  font-size: 22px;
+}
+
+footer {
+  width: 100%;
+}
+
+main > section {
+  margin: 0px 10% 20px 10%;
+}
+
+main > section h2 {
+  font-size: 35px;
+  text-decoration: underline;
+}
+
+#facts, #intro {
+  border-style: solid;
+  padding: 30px;
+  border-left: 15px;
+  border-right: 15px;
+  border-color: #551755;
+}
+
+#intro img {
+  width: 25vw;
+  height: 100%;
+  border-radius: 10%;
+  margin: 10px 50px 10px 10px;
+}
+
+#facts p, #jokes div p {
+  font-size: 24px;
+}
+
+#facts ol li, #intro p {
+  font-size: 20px;
+}
+
+#facts a:link {
+  color: #FFA605;
+}
+
+#facts a:visited {
+  color: #1B505F;
+}
+
+#jokes > section {
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+#jokes div {
+  margin: 15px;
+  height: 400px;
+  width: 300px;
+  background-color: #9B590D;
+  opacity: 80%;
+}
+
+#jokes div img {
+  height: 150px;
+  width: 150px;
+}
+
+hr {
+  width: 60%;
+}
+
+#jokes div p {
+  align-self: flex-start;
+}
+
+#jokes div abbr {
+  font-size: 28px;
+  text-decoration: none;
+}
+
+.answer {
+  color: #191819;
+  display: none;
+}
+
+#jokes div:hover .answer {
+  display: unset;
+}
